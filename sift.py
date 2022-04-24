@@ -2,7 +2,11 @@ import numpy as np
 import cv2
 
 
-class Knnmatcher:
+class KnnMatcher:
+    """
+    SIFT 객체의 feature를 분석해
+    homography를 제작하는 클래스
+    """
     __matches = None
 
     def __init__(self, sift_a, sift_b):

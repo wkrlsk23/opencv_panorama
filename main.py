@@ -5,7 +5,7 @@ if __name__ == "__main__":
     # select 2 image_address(example)
     img1 = './foto1A.jpg'
     img2 = './foto1B.jpg'
-    # 원하는 방법에 맞춰 아래 변수를 조절 하시오.
+    # 원하는 방법에 맞춰 아래 변수를 조절 하세요.
     case = 2
 
     if case == 1:
